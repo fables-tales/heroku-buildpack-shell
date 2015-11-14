@@ -1,0 +1,9 @@
+#!/bin/bash
+
+indent() {
+    sed -u 's/^/       /'
+}
+
+
+echo "-----> Shell buildpack executing \`$1/.shellfile\`"
+$1/.shellfile | indent
