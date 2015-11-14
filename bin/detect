@@ -1,12 +1,10 @@
 #!/bin/bash
 
-pwd
-
 $FILENAME=".shellfile"
 
-if [[ -f $1/$FILENAME ]]
+if [[ -f "$1/$FILENAME" ]]
 then
-    echo -e "Shell build framework"
+    echo "Shell build framework"
     exit 0
 else
     exit 1
