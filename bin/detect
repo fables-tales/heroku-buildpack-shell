@@ -1,6 +1,6 @@
 #!/bin/bash
 
-$FILENAME=".shellfile"
+FILENAME=".shellfile"
 
 if [[ -f "$1/$FILENAME" ]]
 then
