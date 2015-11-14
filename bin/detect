@@ -4,7 +4,7 @@ FILENAME=".shellfile"
 
 if [[ -f "$1/$FILENAME" ]]
 then
-    echo "Shell build framework"
+    echo "Shell buildpack"
     exit 0
 else
     exit 1

@@ -6,4 +6,4 @@ indent() {
 
 
 echo "-----> Shell buildpack executing \`$1/.shellfile\`"
-$1/.shellfile | indent
+$1/.shellfile $* | indent
